@@ -1,10 +1,14 @@
 {
-    "name": "mean-angular2-registration-login-example-server",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "main": "server.js",
+    "name": "hns",
     "version": "1.0.0",
-    "description": "Server for MEAN Stack with Angular 2 User Registration and Login Example",
+    "description": "Server side for hns",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cornflourblue/mean-angular2-registration-login-example.git"
+        "url": "https://github.com/sysstas/node-hns"
     },
     "dependencies": {
         "bcryptjs": "^2.1.0",
