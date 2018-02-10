@@ -1,11 +1,11 @@
 {
-    "scripts": {
-        "start": "node server.js"
-    },
-    "main": "server.js",
     "name": "hns",
     "version": "1.0.0",
     "description": "Server side for hns",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/sysstas/node-hns"
