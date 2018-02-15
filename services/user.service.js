@@ -28,6 +28,7 @@ function authenticate(username, password) {
 
         if (user && bcrypt.compareSync(password, user.hash)) {
             // authentication successful
+            console.log("connecntion resolved on fidone");
             deferred.resolve({
                 _id: user._id,
                 username: user.username,
@@ -38,6 +39,7 @@ function authenticate(username, password) {
             });
         } else {
             // authentication failed
+            console.log("connecntion failed on fidone");
             deferred.resolve();
         }
     });
