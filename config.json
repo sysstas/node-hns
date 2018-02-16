@@ -1,4 +1,4 @@
 ﻿{
-    "connectionString": "mongodb://users:chdels@ds012058.mlab.com:12058/users",
+    "connectionString": "mongodb://54.198.130.145:27017/users",
     "secret": "REPLACE THIS WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
 }
